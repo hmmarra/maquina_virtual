@@ -9,7 +9,7 @@ gpg -a --export E084DAB9 | sudo apt-key add -
 
 apt-get update
 
-apt-get install -y vim r-base r-base-dev gdebi-core x11-apps python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+apt-get install -y vim r-base r-base-dev gdebi-core x11-apps tree sl python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
 wget http://download2.rstudio.org/rstudio-server-0.99.491-i386.deb
 
